@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Account setup</title>
+    <link rel="stylesheet" href="./account.css">
+    <script src="./account.js"></script>
+</head>
+<body>
+    <nav class="top-nav">
+        <form action="output" method="post">
+            <input type="search" name="search" id="search-input" placeholder="Search here..." autofocus>
+        </form>
+    </nav>
+    <main class="content-card" >
+        <header>
+            <h1 class="intro">Want to take a Step with an Account, Great!</h1>
+        </header>
+        <section >
+            <details open>
+                <summary >
+                    Create an Account
+                </summary>
+                <form action="input" validate >
+                    
+                    <h3 class="input-name">Full Name</h3>
+                    <input type="text" 
+                    name="Name" 
+                    placeholder="Name" 
+                    id="input-name" 
+                    class="input-form"
+                    required
+                    pattern="(.*)\s(.*)"
+                      >
+                    
+                    <h3 class="input-name">Email</h3>
+                    <input type="email" 
+                    autocomplete="email" 
+                    placeholder="Email" 
+                    required 
+                    name="paa" 
+                    id="input-email">
+                    
+                    <h3 class="input-name">Password</h3>
+                    <input type="password" 
+                    placeholder="password" 
+                    required
+                    name="password"  
+                    id="input-password">
+                    
+                    <h3 class="input-name">Confirm Password</h3>
+                    <input type="password" 
+                    placeholder="confirm password" 
+                    required
+                    role="alert"
+                    name="confirm password" 
+                    id="input-confirm-password">
+                    
+                    <h3 class="input-name">age</h3>
+                    <input type="number" 
+                    placeholder="age" 
+                    min="13"
+                    max="50"
+                    name="age" 
+                    id="input-age">
+                    
+                    <h3 class="input-name">tel</h3>
+                    <input type="tel" 
+                    placeholder="tel"
+                    name="tel" 
+                    id="input-tel">
+
+                    <h3 class="input-name">Name</h3>
+                    <input type="button" v
+                    alue="yeah">
+                    
+                    <h3 class="input-name">Name</h3>
+                    <input type="range" value="40"
+                    max="150"
+                    min="0"
+                    step="10"
+                    id="move-range">
+                    <span id="move-value">40</span>
+
+                    <h3 class="input-name">list</h3>
+                    <input type="text" 
+                    list="options"
+                    id="input-list"
+                    placeholder="list of option">
+                    <datalist id="options">
+                        <option value="me">north</option>
+                        <option >south</option>
+                        <option >east</option>
+                        <option >west</option>
+                    </datalist>
+
+                    <h3 class="input-name">Name</h3>
+                    <input type="checkbox" 
+                    placeholder="check" 
+                    name="" 
+                    id="input-check">
+                    <input type="radio" name="" id="input-">
+                    
+                    <h3 class="input-name">Name</h3>
+                    <input type="color" 
+                    value="#502596" 
+                    id="input-">
+                    
+                    <h3 class="input-name">Name</h3>
+                    <input type="date" 
+                    placeholder="date of birth" 
+                    name="" 
+                    id="input-date">
+                    
+                    <h3 class="input-name">Name</h3>
+                    <input type="datetime" 
+                    placeholder="date of graduation" 
+                    name="" 
+                    id="input-">
+                    
+                    <h3 class="input-name">Name</h3>
+                    <input type="datetime-local" 
+                    placeholder="date of" 
+                    name="" 
+                    id="input-">
+                    
+                    <h3 class="input-name">Name</h3>
+                    <input type="file" 
+                    placeholder="cv" 
+                    name="" 
+                    id="input-">
+                    
+                    <h3 class="input-name">Name</h3>
+                    <input type="month" 
+                    placeholder="mont to start" 
+                    name="" 
+                    id="input-">
+                    
+                    <h3 class="input-name">Name</h3>
+                    <input type="image" 
+                    placeholder="image" 
+                    src="" 
+                    alt="">
+                    
+                    <h3 class="input-name">Name</h3>
+                    <input type="week" 
+                    name="" 
+                    id="input-">
+
+                   <input type="reset" value="">
+                    
+                    <h3 class="input-name">Name</h3>
+                    <input type="submit" 
+                    value="submit">
+                
+                </form>
+            </details>
+        </section>
+
+    </main>
+    
+</body>
+</html>

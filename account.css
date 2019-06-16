@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.top-nav{
+    background-color: #808080;
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    box-shadow: 10px 10px 0.5 #000;
+}
+.content-card{
+    background-color: #E4E4E4;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    width: 50vmax;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+}
+.intro{
+    font-size: 3rem;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #808080;
+    padding: 10px;
+}
+details{
+    border: 3px solid #000;
+    padding: 1rem;
+    width: 550px;
+}
+details summary{
+    font-size: 3rem;
+    text-align: center;
+    font-style: oblique ;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fff;
+    padding: 10px;
+}
+.input-name{
+    font-size: 1rem;
+    align-self: left;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #808080;
+}
+
+input{
+    background-color: #E4E4E4;
+    width: 500px;
+    height: 2rem;
+    margin-left: 3.5em;
+    margin-bottom: 1rem;
+    display: inline-block;
+    border:0px;
+    border-bottom: 4px solid #fff
+    
+}
+input:required{
+    border-left: 4px solid #c33
+}
